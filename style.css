@@ -1,0 +1,97 @@
+img {
+	border-style: groove;
+	border-radius: 25%;
+	border-width: thick;
+	border-color: black;
+}
+
+header {
+	border-style: groove;
+	border-radius: 0px;
+	border width: thick;
+	border-color: black;
+	margin-left: 250px;
+	margin-right: 250px;
+}
+
+body {
+margin-right: 0 auto;
+}
+
+.container {
+	width: 500px;
+	height: 400px;
+	text-align: center;
+	background-color: rgba(52, 73, 94, 0.7);
+	border-radius: 4px;
+	margin-right: 100%;
+	margin-top: 150px;
+}
+
+.container img {
+	width: 120px;
+	height: 120px;
+	margin-top -60px;
+	margin-bottom: 30px;
+}
+
+input [type="text"], input [type="password"]{
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	border: none;
+	margin-bottom: 20px;
+	border-radius: 4px;
+	background-color: #fff;
+	padding-left: 40px;
+
+}
+
+input{
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 40px;
+	}
+.form-input::before{
+	content: "\f007";
+	position: absolute;
+	font-family: "FontAwesome";
+	padding-left: 5px;
+	color: #9b59b6;
+	padding-top: 5px;
+	font-size: 35px;
+
+}
+
+.form-input:nth-child(2)::before{
+	content:"\f023";
+
+}
+
+.btn-login{
+	padding: 15px 30px;
+	cursor: pointer;
+	color: #fff;
+	border-radius: 4px;
+	border: none;
+	background-color: #2ECC71;
+	border-bottom: 4px solid #27AE60;
+	margin-bottom: 20px;
+
+
+}
+a{
+	color: #fff;
+
+}
+.container_fluid
+{
+	border-style: groove;
+	margin-top: 150px;
+}
+.row {
+	border-style: groove;
+}
